@@ -26,7 +26,10 @@ return {
     mantle = "#0b0b0b",
     crust = "#000000",
 
+    -- Using the color codes found at: https://gist.github.com/jasonm23/2868981
+    --
     comments = "#00ff00",
+    special  = "#ff00ff", -- this is also the color for SpecialComment and 'Debug'
 
     debugBreakpoint = "#00ff00",
 
