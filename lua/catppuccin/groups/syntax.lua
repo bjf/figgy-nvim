@@ -11,7 +11,7 @@ function M.get()
 		Float              = { link = "Number"                                     }, -- a floating point constant: 2.3e10
 		Boolean            = { fg = C.boolean, style = O.styles.booleans or {}     }, -- a boolean constant: TRUE, false
 		Identifier         = { fg = C.variables, style = O.styles.variables or {}  }, -- (preferred) any variable name
-		Function           = { fg = C.blue, style = O.styles.functions or {}       }, -- function name (also: methods for classes)
+		Function           = { fg = C.functions, style = O.styles.functions or {}  }, -- function name (also: methods for classes)
 		Statement          = { fg = C.mauve                                        }, -- (preferred) any statement
 		Conditional        = { fg = C.mauve, style = O.styles.conditionals or {}   }, -- if, then, else, endif, switch, etc.
 		Repeat             = { fg = C.mauve, style = O.styles.loops or {}          }, -- for, do, while, etc.

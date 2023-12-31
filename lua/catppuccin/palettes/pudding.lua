@@ -36,6 +36,7 @@ return {
     number    = "#afffff", -- also Floats
     boolean   = "#00ff00",
     variables = "#ff00ff",
+    functions = "#ffff00",
 
     debugBreakpoint = "#00ff00",
 
