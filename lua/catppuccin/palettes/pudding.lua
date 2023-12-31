@@ -35,6 +35,7 @@ return {
     character = "#afffff",
     number    = "#afffff", -- also Floats
     boolean   = "#00ff00",
+    variables = "#ff00ff",
 
     debugBreakpoint = "#00ff00",
 
