@@ -2,7 +2,7 @@ local M                           = {}
 
 function M.get()
 	return {
-		Comment            = { fg = C.comments, style = { "italic" }               }, -- just comments
+		Comment            = { fg = C.comments, style = {}                         }, -- just comments
 		SpecialComment     = { link = "Special"                                    }, -- special things inside a comment
 		Constant           = { fg = C.constant                                     }, -- (preferred) any constant
 		String             = { fg = C.string, style = O.styles.strings or {}       }, -- a string constant: "this is a string"
