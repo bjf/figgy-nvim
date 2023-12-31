@@ -9,7 +9,7 @@ function M.get()
 		Character          = { fg = C.character                                    }, -- a character constant: 'c', '\n'
 		Number             = { fg = C.number, style = O.styles.numbers or {}       }, -- a number constant: 234, 0xff
 		Float              = { link = "Number"                                     }, -- a floating point constant: 2.3e10
-		Boolean            = { fg = C.peach, style = O.styles.booleans or {}       }, -- a boolean constant: TRUE, false
+		Boolean            = { fg = C.boolean, style = O.styles.booleans or {}     }, -- a boolean constant: TRUE, false
 		Identifier         = { fg = C.flamingo, style = O.styles.variables or {}   }, -- (preferred) any variable name
 		Function           = { fg = C.blue, style = O.styles.functions or {}       }, -- function name (also: methods for classes)
 		Statement          = { fg = C.mauve                                        }, -- (preferred) any statement

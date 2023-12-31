@@ -33,7 +33,8 @@ return {
     constant  = "#ff8700",
     string    = "#00afff",
     character = "#afffff",
-    number    = "#afffff",
+    number    = "#afffff", -- also Floats
+    boolean   = "#00ff00",
 
     debugBreakpoint = "#00ff00",
 
