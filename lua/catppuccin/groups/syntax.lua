@@ -2,7 +2,7 @@ local M                           = {}
 
 function M.get()
 	return {
-		Comment            = { fg = C.comments, style = O.styles.comments          }, -- just comments
+		Comment            = { fg = C.comments, style = { "italic" }               }, -- just comments
 		SpecialComment     = { link = "Special"                                    }, -- special things inside a comment
 		Constant           = { fg = C.constant                                     }, -- (preferred) any constant
 		String             = { fg = C.string, style = O.styles.strings or {}       }, -- a string constant: "this is a string"
@@ -13,8 +13,8 @@ function M.get()
 		Identifier         = { fg = C.variables, style = O.styles.variables or {}  }, -- (preferred) any variable name
 		Function           = { fg = C.functions, style = O.styles.functions or {}  }, -- function name (also: methods for classes)
 		Statement          = { fg = C.mauve                                        }, -- (preferred) any statement
-		Conditional        = { fg = C.mauve, style = O.styles.conditionals or {}   }, -- if, then, else, endif, switch, etc.
-		Repeat             = { fg = C.loops, style = O.styles.loops or {}          }, -- for, do, while, etc.
+		Conditional        = { fg = C.conditionals, style = { "italic" }           }, -- if, then, else, endif, switch, etc.
+		Repeat             = { fg = C.loops, style = { "italic" }                  }, -- for, do, while, etc.
 		Label              = { fg = C.sapphire                                     }, -- case, default, etc.
 		Operator           = { fg = C.sky, style = O.styles.operators or {}        }, -- "sizeof", "+", "*", etc.
 		Keyword            = { fg = C.keywords, style = O.styles.keywords or {}    }, -- any other keyword
