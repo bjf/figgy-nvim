@@ -17,8 +17,8 @@ function M.get()
 		Repeat             = { fg = C.loops, style = { "italic" }                  }, -- for, do, while, etc.
 		Label              = { fg = C.sapphire                                     }, -- case, default, etc.
 		Operator           = { fg = C.sky, style = O.styles.operators or {}        }, -- "sizeof", "+", "*", etc.
-		Keyword            = { fg = C.keywords, style = O.styles.keywords or {}    }, -- any other keyword
-		Exception          = { fg = C.exception, style = O.styles.keywords or {}   }, -- try, catch, throw
+		Keyword            = { fg = C.keywords, style = { "italic" }               }, -- any other keyword
+		Exception          = { fg = C.exception, style = { "italic" }              }, -- try, catch, throw
 
 		PreProc            = { fg = C.pink                                         }, -- (preferred) generic Preprocessor
 		Include            = { fg = C.include, style = O.styles.keywords or {}     }, -- preprocessor #include

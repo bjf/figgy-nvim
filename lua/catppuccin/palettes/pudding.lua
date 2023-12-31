@@ -38,8 +38,8 @@ return {
     variables    = "#ff00ff",
     functions    = "#ffff00",
     keywords     = "#00af00",
-    loops        = "#00ff00",
-    conditionals = "#00ff00",
+    loops        = "#87ff5f",
+    conditionals = "#87ff5f",
 
     exception    = "#87ff5f",
     include      = "#00afff",
