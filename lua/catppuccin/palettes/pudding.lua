@@ -33,6 +33,7 @@ return {
     constant  = "#ff8700",
     string    = "#00afff",
     character = "#afffff",
+    number    = "#afffff",
 
     debugBreakpoint = "#00ff00",
 
