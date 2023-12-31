@@ -48,6 +48,8 @@ return {
     label        = "#ff0000",
     operator     = "#ff0000",
 
+    types        = "#ffff00",
+
     preproc      = "#ffaf00",
 
     debugBreakpoint = "#00ff00",
