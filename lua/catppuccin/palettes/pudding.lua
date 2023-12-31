@@ -47,10 +47,10 @@ return {
     statement    = "#ff0000",
     label        = "#ff0000",
     operator     = "#ff0000",
-
     types        = "#ffff00",
-
     preproc      = "#ffaf00",
+    tag          = "#ff0000",
+    delimiter    = "#ff00ff",
 
     debugBreakpoint = "#00ff00",
 

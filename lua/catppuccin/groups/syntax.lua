@@ -32,8 +32,8 @@ function M.get()
 		Type               = { fg = C.types, style = O.styles.types or {}          }, -- (preferred) int, long, char, etc.
 		Typedef            = { link = "Type"                                       }, -- A typedef
 		SpecialChar        = { link = "Special"                                    }, -- special character in a constant
-		Tag                = { fg = C.lavender, style = { "bold" }                 }, -- you can use CTRL-] on this
-		Delimiter          = { fg = C.overlay2                                     }, -- character that needs attention
+		Tag                = { fg = C.tag, style = { "bold" }                      }, -- you can use CTRL-] on this
+		Delimiter          = { fg = C.delimiter                                    }, -- character that needs attention
 		Debug              = { link = "Special"                                    }, -- debugging statements
 
 		Underlined         = { style = { "underline" }                             }, -- (preferred) text that stands out, HTML links
