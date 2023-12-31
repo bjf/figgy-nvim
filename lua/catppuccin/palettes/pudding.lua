@@ -28,7 +28,7 @@ return {
 
     -- Using the color codes found at: https://gist.github.com/jasonm23/2868981
     --
-    comments = "#00ff00",
+    comments = "#808000",
     special  = "#ff00ff", -- this is also the color for SpecialComment and 'Debug'
     constant = "#ff8700",
 
