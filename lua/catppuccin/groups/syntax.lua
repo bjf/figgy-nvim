@@ -14,7 +14,7 @@ function M.get()
 		Function           = { fg = C.functions, style = O.styles.functions or {}  }, -- function name (also: methods for classes)
 		Statement          = { fg = C.mauve                                        }, -- (preferred) any statement
 		Conditional        = { fg = C.mauve, style = O.styles.conditionals or {}   }, -- if, then, else, endif, switch, etc.
-		Repeat             = { fg = C.mauve, style = O.styles.loops or {}          }, -- for, do, while, etc.
+		Repeat             = { fg = C.loops, style = O.styles.loops or {}          }, -- for, do, while, etc.
 		Label              = { fg = C.sapphire                                     }, -- case, default, etc.
 		Operator           = { fg = C.sky, style = O.styles.operators or {}        }, -- "sizeof", "+", "*", etc.
 		Keyword            = { fg = C.keywords, style = O.styles.keywords or {}    }, -- any other keyword
