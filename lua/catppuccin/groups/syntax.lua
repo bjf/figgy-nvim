@@ -2,7 +2,7 @@ local M                           = {}
 
 function M.get()
 	return {
-		Comment            = { fg = C.overlay0, style = O.styles.comments          }, -- just comments
+		Comment            = { fg = C.comments, style = O.styles.comments          }, -- just comments
 		SpecialComment     = { link = "Special"                                    }, -- special things inside a comment
 		Constant           = { fg = C.peach                                        }, -- (preferred) any constant
 		String             = { fg = C.green, style = O.styles.strings or {}        }, -- a string constant: "this is a string"
@@ -57,7 +57,7 @@ function M.get()
 
 		-- debugging
 		debugPC            = { bg = O.transparent_background and C.none or C.crust }, -- used for highlighting the current line in terminal-debug
-		debugBreakpoint    = { bg = C.base, fg = C.overlay0                        }, -- used for breakpoint colors in terminal-debug
+		debugBreakpoint    = { bg = C.base, fg = C.debugBreakpoint                 }, -- used for breakpoint colors in terminal-debug
 		-- illuminate
 		illuminatedWord    = { bg = C.surface1                                     },
 		illuminatedCurWord = { bg = C.surface1                                     },
@@ -68,7 +68,7 @@ function M.get()
 		diffOldFile        = { fg = C.yellow                                       },
 		diffNewFile        = { fg = C.peach                                        },
 		diffFile           = { fg = C.blue                                         },
-		diffLine           = { fg = C.overlay0                                     },
+		diffLine           = { fg = C.diffLine                                     },
 		diffIndexLine      = { fg = C.teal                                         },
 		DiffAdd            = { bg = U.darken(C.green, 0.18, C.base)                }, -- diff mode: Added line |diff.txt|
 		DiffChange         = { bg = U.darken(C.blue, 0.07, C.base)                 }, -- diff mode: Changed line |diff.txt|

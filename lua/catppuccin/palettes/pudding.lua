@@ -24,5 +24,11 @@ return {
     surface0 = "#262626",
     base = "#161616",
     mantle = "#0b0b0b",
-    crust = "#000000"
+    crust = "#000000",
+
+    comments = "#00ff00",
+
+    debugBreakpoint = "#00ff00",
+
+    diffLine = "#00ff00",
 }
