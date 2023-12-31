@@ -30,6 +30,7 @@ return {
     --
     comments = "#00ff00",
     special  = "#ff00ff", -- this is also the color for SpecialComment and 'Debug'
+    constant = "#0000ff",
 
     debugBreakpoint = "#00ff00",
 
