@@ -22,12 +22,13 @@ return {
     surface2 = "#525252",
     surface1 = "#393939",
     surface0 = "#262626",
-    base = "#161616",
-    mantle = "#0b0b0b",
-    crust = "#000000",
 
     -- Using the color codes found at: https://gist.github.com/jasonm23/2868981
     --
+    base         = "#000000",
+    mantle       = "#000000",
+    crust        = "#000000",
+
     comments     = "#808000",
     special      = "#ff00ff", -- this is also the color for SpecialComment and 'Debug'
     constant     = "#ff8700",
