@@ -20,7 +20,7 @@ function M.get()
 		Keyword            = { fg = C.keywords, style = { "italic" }               }, -- any other keyword
 		Exception          = { fg = C.exception, style = { "italic" }              }, -- try, catch, throw
 
-		PreProc            = { fg = C.pink                                         }, -- (preferred) generic Preprocessor
+		PreProc            = { fg = C.preproc                                      }, -- (preferred) generic Preprocessor
 		Include            = { fg = C.include, style = O.styles.keywords or {}     }, -- preprocessor #include
 		Define             = { link = "PreProc"                                    }, -- preprocessor #define
 		Macro              = { fg = C.macro                                        }, -- same as Define
