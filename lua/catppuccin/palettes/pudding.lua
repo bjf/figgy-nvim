@@ -34,7 +34,7 @@ return {
     string    = "#00afff",
     character = "#afffff",
     number    = "#afffff", -- also Floats
-    boolean   = "#00ff00",
+    boolean   = "#d75fff",
     variables = "#ff00ff",
     functions = "#ffff00",
     keywords  = "#00af00",
