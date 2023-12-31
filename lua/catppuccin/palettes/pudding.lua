@@ -40,10 +40,13 @@ return {
     keywords     = "#00af00",
     loops        = "#87ff5f",
     conditionals = "#87ff5f",
-
     exception    = "#87ff5f",
     include      = "#00afff",
     macro        = "#00afff",
+
+    statement    = "#ff0000",
+    label        = "#ff0000",
+    operator     = "#ff0000",
 
     debugBreakpoint = "#00ff00",
 

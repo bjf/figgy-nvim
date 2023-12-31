@@ -12,11 +12,11 @@ function M.get()
 		Boolean            = { fg = C.boolean, style = O.styles.booleans or {}     }, -- a boolean constant: TRUE, false
 		Identifier         = { fg = C.variables, style = O.styles.variables or {}  }, -- (preferred) any variable name
 		Function           = { fg = C.functions, style = O.styles.functions or {}  }, -- function name (also: methods for classes)
-		Statement          = { fg = C.mauve                                        }, -- (preferred) any statement
+		Statement          = { fg = C.statement                                    }, -- (preferred) any statement
 		Conditional        = { fg = C.conditionals, style = { "italic" }           }, -- if, then, else, endif, switch, etc.
 		Repeat             = { fg = C.loops, style = { "italic" }                  }, -- for, do, while, etc.
-		Label              = { fg = C.sapphire                                     }, -- case, default, etc.
-		Operator           = { fg = C.sky, style = O.styles.operators or {}        }, -- "sizeof", "+", "*", etc.
+		Label              = { fg = C.label                                        }, -- case, default, etc.
+		Operator           = { fg = C.operator, style = O.styles.operators or {}   }, -- "sizeof", "+", "*", etc.
 		Keyword            = { fg = C.keywords, style = { "italic" }               }, -- any other keyword
 		Exception          = { fg = C.exception, style = { "italic" }              }, -- try, catch, throw
 
