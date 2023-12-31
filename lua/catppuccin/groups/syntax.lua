@@ -5,7 +5,7 @@ function M.get()
 		Comment            = { fg = C.comments, style = O.styles.comments          }, -- just comments
 		SpecialComment     = { link = "Special"                                    }, -- special things inside a comment
 		Constant           = { fg = C.constant                                     }, -- (preferred) any constant
-		String             = { fg = C.green, style = O.styles.strings or {}        }, -- a string constant: "this is a string"
+		String             = { fg = C.string, style = O.styles.strings or {}       }, -- a string constant: "this is a string"
 		Character          = { fg = C.teal                                         }, -- a character constant: 'c', '\n'
 		Number             = { fg = C.peach, style = O.styles.numbers or {}        }, -- a number constant: 234, 0xff
 		Float              = { link = "Number"                                     }, -- a floating point constant: 2.3e10
