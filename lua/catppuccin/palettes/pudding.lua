@@ -31,7 +31,7 @@ return {
     comments     = "#808000",
     special      = "#ff00ff", -- this is also the color for SpecialComment and 'Debug'
     constant     = "#ff8700",
-    string       = "#00afff",
+    string       = "#767676",
     character    = "#afffff",
     number       = "#afffff", -- also Floats
     boolean      = "#d75fff",
@@ -40,6 +40,10 @@ return {
     keywords     = "#00af00",
     loops        = "#00ff00",
     conditionals = "#00ff00",
+
+    exception    = "#87ff5f",
+    include      = "#00afff",
+    macro        = "#00afff",
 
     debugBreakpoint = "#00ff00",
 

@@ -18,12 +18,12 @@ function M.get()
 		Label              = { fg = C.sapphire                                     }, -- case, default, etc.
 		Operator           = { fg = C.sky, style = O.styles.operators or {}        }, -- "sizeof", "+", "*", etc.
 		Keyword            = { fg = C.keywords, style = O.styles.keywords or {}    }, -- any other keyword
-		Exception          = { fg = C.mauve, style = O.styles.keywords or {}       }, -- try, catch, throw
+		Exception          = { fg = C.exception, style = O.styles.keywords or {}   }, -- try, catch, throw
 
 		PreProc            = { fg = C.pink                                         }, -- (preferred) generic Preprocessor
-		Include            = { fg = C.mauve, style = O.styles.keywords or {}       }, -- preprocessor #include
+		Include            = { fg = C.include, style = O.styles.keywords or {}     }, -- preprocessor #include
 		Define             = { link = "PreProc"                                    }, -- preprocessor #define
-		Macro              = { fg = C.mauve                                        }, -- same as Define
+		Macro              = { fg = C.macro                                        }, -- same as Define
 		PreCondit          = { link = "PreProc"                                    }, -- preprocessor #if, #else, #endif, etc.
 
 		StorageClass       = { fg = C.yellow                                       }, -- static, register, volatile, etc.
