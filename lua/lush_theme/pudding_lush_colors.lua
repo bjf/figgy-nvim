@@ -51,7 +51,7 @@ c.error_red      = hsl("#ff2026")
 c.dark_fg        = hsl("#e4e0d7")
 c.dark_bg        = hsl("#1e1e1e")
 c.dark_fg_256mod = hsl("#e3e0d7")
-c.dark_bg_256mod = hsl("#242424")
+c.dark_bg_256mod = hsl("#000000")
 
 return M
 
