@@ -53,6 +53,41 @@ c.dark_bg        = hsl("#1e1e1e")
 c.dark_fg_256mod = hsl("#e3e0d7")
 c.dark_bg_256mod = hsl("#000000")
 
+c.cursor         = hsl("#303030")
+c.cursor_line    = hsl("#1e1e1e")
+c.cursor_column  = hsl("#1e1e1e")
+
+c.comments       = hsl("#808000")  -- khaki green
+c.constant       = hsl("#ff8700")  -- orange
+
+c.string         = hsl("#808080")  -- +
+c.character      = hsl("#afffff")
+
+c.number         = hsl("#afffff")  -- +
+c.boolean        = hsl("#d75fff")
+c.float          = hsl("#afffff")
+
+c.identifier     = hsl("#00cfff")  -- blue
+c.functions      = hsl("#ffff00")  -- light yellow
+
+c.statement      = hsl("#87ff5f")  -- bright green (same as keywords)
+c.conditionals   = hsl("#87ff5f")
+c.loops          = hsl("#87ff5f")
+c.operator       = hsl("#ffff00")
+c.label          = hsl("#87ff5f")
+
+c.keywords       = hsl("#87ff5f")  -- bright green
+c.exception      = hsl("#87ff5f")  -- bright green (same as statements, loopes, operator, etc.)
+
+c.preproc        = hsl("#ffaf00")  -- orange
+c.include        = hsl("#00afff")
+c.define         = hsl("#00afff")
+c.macro          = hsl("#00afff")
+c.precondition   = hsl("#00afff")
+
+c.types          = hsl("#ffff00")  -- +
+
+c.special        = hsl("#d700ff")  -- +
 return M
 
 
