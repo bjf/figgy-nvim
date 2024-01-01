@@ -1,4 +1,4 @@
--- Define the base color palet for wombat
+-- Define the base color palet for pudding
 local lush = require('lush')
 local hsl = lush.hsl
 
