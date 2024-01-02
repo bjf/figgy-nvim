@@ -53,6 +53,8 @@ c.dark_bg        = hsl("#1e1e1e")
 c.dark_fg_256mod = hsl("#e3e0d7")
 c.dark_bg_256mod = hsl("#000000")
 
+-- https://gist.github.com/jasonm23/2868981
+--
 c.cursor         = hsl("#303030")
 c.cursor_line    = hsl("#1e1e1e")
 c.cursor_column  = hsl("#1e1e1e")
@@ -63,11 +65,11 @@ c.constant       = hsl("#ff8700")  -- orange
 c.string         = hsl("#808080")  -- +
 c.character      = hsl("#afffff")
 
-c.number         = hsl("#afffff")  -- +
-c.boolean        = hsl("#d75fff")
+c.number         = hsl("#afffff")  -- light blue
+c.boolean        = hsl("#00afff")  -- darker blue
 c.float          = hsl("#afffff")
 
-c.identifier     = hsl("#ffffff")  -- blue
+c.identifier     = hsl("#ffffff")  -- white
 c.functions      = hsl("#ffff00")  -- light yellow
 
 c.statement      = hsl("#87ff5f")  -- bright green (same as keywords)
@@ -87,7 +89,8 @@ c.precondition   = hsl("#00afff")
 
 c.types          = hsl("#ffff00")  -- +
 
-c.special        = hsl("#d700ff")  -- +
+c.special        = hsl("#00afff")  -- blue
+c.delimiter      = hsl("#ff00ff")  -- hot pink
 return M
 
 

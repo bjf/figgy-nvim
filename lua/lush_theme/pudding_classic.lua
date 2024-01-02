@@ -169,7 +169,7 @@ local theme = lush(function()
         Special        { fg = c.special },                    -- (preferred) any special symbol
         -- SpecialChar    { },                                --   special character in a constant
         -- Tag            { },                                --   you can use CTRL-] on this
-        -- Delimiter      { Special },                        --   character that needs attention
+        Delimiter      { fg = c.delimiter },                  --   character that needs attention
         -- SpecialComment { },                                --   special things inside a comment
         -- Debug          { },                                --   debugging statements
 
