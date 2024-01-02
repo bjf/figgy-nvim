@@ -67,7 +67,7 @@ c.number         = hsl("#afffff")  -- +
 c.boolean        = hsl("#d75fff")
 c.float          = hsl("#afffff")
 
-c.identifier     = hsl("#00cfff")  -- blue
+c.identifier     = hsl("#ffffff")  -- blue
 c.functions      = hsl("#ffff00")  -- light yellow
 
 c.statement      = hsl("#87ff5f")  -- bright green (same as keywords)
