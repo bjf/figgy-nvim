@@ -29,6 +29,7 @@ c.darkmagenta    = c.magenta.darken(c_step)
 c.cyan           = hsl("#90fdf8")
 c.darkcyan       = c.cyan.darken(c_step)
 c.white          = hsl("#e4e0d7")
+c.hotpink        = hsl("#ff00ff")
 
 c.orange         = hsl("#e5786d")
 c.darkorange     = c.orange.darken(c_step)
@@ -84,7 +85,7 @@ c.keywords       = hsl("#87ff5f")  -- bright green
 c.exception      = hsl("#87ff5f")  -- bright green (same as statements, loopes, operator, etc.)
 
 c.preproc        = hsl("#ffaf00")  -- orange
-c.include        = hsl("#00afff")
+c.include        = c.hotpink -- hsl("#00afff")
 c.define         = hsl("#00afff")
 c.macro          = hsl("#00afff")
 c.precondition   = hsl("#00afff")
@@ -98,64 +99,3 @@ c.search_bg      = hsl("#ffff00")  -- yellow
 c.search_fg      = hsl("#000000")  -- black
 
 return M
-
-
--- return {
---     rosewater = "#ffd7d9",
---     flamingo = "#ffb3b8",
---     pink = "#ff7eb6",
---     mauve = "#d4bbff",
---     red = "#fa4d56",
---     maroon = "#ff8389",
---     peach = "#ff832b",
---     yellow = "#fddc69",
---     green = "#42be65",
---     teal = "#3ddbd9",
---     sky = "#82cfff",
---     sapphire = "#78a9ff",
---     blue = "#4589ff",
---     lavender = "#be95ff",
---     text = "#f4f4f4",
---     subtext1 = "#e0e0e0",
---     subtext0 = "#c6c6c6",
---     overlay2 = "#a8a8a8",
---     overlay1 = "#8d8d8d",
---     overlay0 = "#6f6f6f",
---     surface2 = "#525252",
---     surface1 = "#393939",
---     surface0 = "#262626",
---
---     -- Using the color codes found at: https://gist.github.com/jasonm23/2868981
---     --
---     base         = "#000000",
---     mantle       = "#000000",
---     crust        = "#000000",
---
---     comments     = "#808000",
---     special      = "#ff00ff", -- this is also the color for SpecialComment and 'Debug'
---     constant     = "#ff8700",
---     string       = "#767676",
---     character    = "#afffff",
---     number       = "#afffff", -- also Floats
---     boolean      = "#d75fff",
---     variables    = "#ff00ff",
---     functions    = "#ffff00",
---     keywords     = "#00af00",
---     loops        = "#87ff5f",
---     conditionals = "#87ff5f",
---     exception    = "#87ff5f",
---     include      = "#00afff",
---     macro        = "#00afff",
---
---     statement    = "#ff0000",
---     label        = "#ff0000",
---     operator     = "#ff0000",
---     types        = "#ffff00",
---     preproc      = "#ffaf00",
---     tag          = "#ff0000",
---     delimiter    = "#ff00ff",
---
---     debugBreakpoint = "#00ff00",
---
---     diffLine = "#00ff00",
--- }
