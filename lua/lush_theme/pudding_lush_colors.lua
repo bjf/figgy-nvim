@@ -73,7 +73,7 @@ c.boolean        = hsl("#00afff")  -- darker blue
 c.float          = hsl("#afffff")
 
 c.identifier     = hsl("#ffffff")  -- white
-c.functions      = hsl("#ffff00")  -- light yellow
+c.functions      = c.orange -- hsl("#ffff00")  -- light yellow
 
 c.statement      = hsl("#87ff5f")  -- bright green (same as keywords)
 c.conditionals   = hsl("#87ff5f")
@@ -85,10 +85,10 @@ c.keywords       = hsl("#87ff5f")  -- bright green
 c.exception      = hsl("#87ff5f")  -- bright green (same as statements, loopes, operator, etc.)
 
 c.preproc        = hsl("#ffaf00")  -- orange
-c.include        = c.hotpink -- hsl("#00afff")
-c.define         = c.hotpink
-c.macro          = c.hotpink
-c.precondition   = c.hotpink
+c.include        = hsl("#00afff")
+c.define         = hsl("#00afff")
+c.macro          = hsl("#00afff")
+c.precondition   = hsl("#00afff")
 
 c.types          = hsl("#ffff00")  -- +
 
