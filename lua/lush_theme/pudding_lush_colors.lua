@@ -63,7 +63,7 @@ c.cursor_line    = hsl("#1e1e1e")
 c.cursor_column  = hsl("#1e1e1e")
 
 c.comments       = c.grey
-c.constant       = hsl("#ff8700")  -- orange
+c.constant       = c.orange
 
 c.string         = c.darkgreen -- hsl("#808080")  -- +
 c.character      = hsl("#afffff")
@@ -73,7 +73,7 @@ c.boolean        = hsl("#00afff")  -- darker blue
 c.float          = hsl("#afffff")
 
 c.identifier     = hsl("#ffffff")  -- white
-c.functions      = c.orange -- hsl("#ffff00")  -- light yellow
+c.functions      = c.orange
 
 c.statement      = hsl("#87ff5f")  -- bright green (same as keywords)
 c.conditionals   = hsl("#87ff5f")
