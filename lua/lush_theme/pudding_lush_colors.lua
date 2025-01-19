@@ -86,9 +86,9 @@ c.exception      = hsl("#87ff5f")  -- bright green (same as statements, loopes, 
 
 c.preproc        = hsl("#ffaf00")  -- orange
 c.include        = c.hotpink -- hsl("#00afff")
-c.define         = hsl("#00afff")
-c.macro          = hsl("#00afff")
-c.precondition   = hsl("#00afff")
+c.define         = c.hotpink
+c.macro          = c.hotpink
+c.precondition   = c.hotpink
 
 c.types          = hsl("#ffff00")  -- +
 
