@@ -92,7 +92,7 @@ c.precondition   = hsl("#00afff")
 c.types          = hsl("#ffff00")  -- +
 
 c.special        = hsl("#00afff")  -- blue
-c.delimiter      = hsl("#ff00ff")  -- hot pink
+c.delimiter      = c.white -- hsl("#ff00ff")  -- hot pink
 
 c.search_bg      = hsl("#ffff00")  -- yellow
 c.search_fg      = hsl("#000000")  -- black
