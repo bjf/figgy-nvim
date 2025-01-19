@@ -3,6 +3,8 @@ local lush       = require('lush')
 local hsl        = lush.hsl
 
 local c_step     = 20
+local c_step_40  = 40
+local c_step_60  = 60
 
 local M          = {
     italic       = "italic",
@@ -16,7 +18,7 @@ c.red            = hsl("#ff786c")
 c.darkred        = c.red.darken(c_step)
 c.green          = hsl("#bde97c") -- 256mod #cae982
 c.bright_green   = hsl("#95e454")
-c.darkgreen      = c.green.darken(c_step)
+c.darkgreen      = c.green.darken(c_step_60)
 c.yellow         = hsl("#efdeab")
 c.light_yellow   = hsl("#ffffd7")
 c.darkyellow     = c.yellow.darken(c_step)
@@ -59,10 +61,10 @@ c.cursor         = hsl("#303030")
 c.cursor_line    = hsl("#1e1e1e")
 c.cursor_column  = hsl("#1e1e1e")
 
-c.comments       = hsl("#808000")  -- khaki green
+c.comments       = c.grey
 c.constant       = hsl("#ff8700")  -- orange
 
-c.string         = hsl("#808080")  -- +
+c.string         = c.darkgreen -- hsl("#808080")  -- +
 c.character      = hsl("#afffff")
 
 c.number         = hsl("#afffff")  -- light blue
