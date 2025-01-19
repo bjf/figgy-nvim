@@ -31,7 +31,7 @@ c.darkcyan       = c.cyan.darken(c_step)
 c.white          = hsl("#e4e0d7")
 c.hotpink        = hsl("#ff00ff")
 
-c.orange         = hsl("#e5786d")
+c.orange         = hsl("#ff8700")
 c.darkorange     = c.orange.darken(c_step)
 c.purple         = hsl("#d787ff")
 c.violet         = hsl("#b294bb")
